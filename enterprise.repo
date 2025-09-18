@@ -1,0 +1,15 @@
+[hostboxcp-enterprise]
+name=HostBoxCP Repository for RHEL $releasever - $basearch
+mirrorlist=https://mirrorlist.hostboxcp.com/$releasever/$basearch
+#baseurl=https://enterprise.hostboxcp.com/dnf/$releasever/$basearch/
+enabled=1
+gpgkey=https://enterprise.hostboxcp.com/RPM-GPG-KEY-HOSTBOXCP
+gpgcheck=1
+
+[hostboxcp-enterprise-noarch]
+name=HostBoxCP Noarch Repository for RHEL $releasever - $basearch
+mirrorlist=https://mirrorlist.hostboxcp.com/$releasever/noarch
+#baseurl=https://enterprise.hostboxcp.com/dnf/$releasever/noarch/
+enabled=1
+gpgkey=https://enterprise.hostboxcp.com/RPM-GPG-KEY-HOSTBOXCP
+gpgcheck=1
